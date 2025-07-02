@@ -1,0 +1,11 @@
+{% extends 'myapp/base.html' %}
+{% block title %}{{ page_title }}{% endblock %}
+{% block content %}
+<h2>{{ message }}</h2>
+<p>This is the content of your home page.</p>
+<button id="myButton">Click Me!</button>
+{% endblock %} {% block extra_js %}
+<script>
+  // You can also put page-specific JS here if needed
+</script>
+{% endblock %}
